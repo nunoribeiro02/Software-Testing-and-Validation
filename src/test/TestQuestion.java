@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import static org.testng.Assert.*;
 
 
-public class TestingQuestion{
+public class TestQuestion{
     
     @Test(expectedExceptions = InvalidOperationException.class)
     public void questionTest1(){
